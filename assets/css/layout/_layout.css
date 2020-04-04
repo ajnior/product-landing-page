@@ -1,11 +1,17 @@
-#nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .l-50 {
   width: 50%;
+}
+
+.l-flex {
+  display: flex;
+}
+
+.l-justify-start {
+  justify-content: flex-start;
+}
+
+.l-justify-end {
+  justify-content: flex-end;
 }
 
 .l-justify-centered {
