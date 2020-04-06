@@ -13,29 +13,33 @@
           <img
             id="header-img"
             class="nav-bar__image"
-            src="https://pngimg.com/uploads/apple_logo/apple_logo_PNG19670.png"
+            src="https://banner2.cleanpng.com/20180601/org/kisspng-apple-company-corporation-nasdaq-aapl-apple-logo-5b110ce6a35299.938342481527844070669.jpg"
           />
         </div>
-        <div class="nav-bar__links l-50 l-flex l-justify-end">
+        <div class="nav-bar__links l-50 l-flex l-justify-end l-align-centered">
           <a class="nav-link" href="#specs">Specs</a>
           <a class="nav-link" href="#video-container">Video</a>
-          <a class="nav-link" href="#buy">Buy</a>
+          <a class="nav-link nav-bar__buy-button" href="#buy">Buy</a>
         </div>
       </nav>
     </header>
     <main id="main">
-      <section class="intro">
-        <div class="intro__text-container">
-          <h1 class="intro__h1">Watch</h1>
-          <h2 class="intro__h2">Series 3</h2>
+      <section class="intro l-flex-wrap l-justify-centered l-align-centered">
+        <div class="l-block-margin">
+          <img
+            src="https://www.apple.com/lae/apple-watch-series-3/images/overview/hero__elf2z89h8wq6_large.jpg"
+          />
         </div>
-        <img src="./assets/img/hero_fallback__8h5n5doq5mqy_large.jpg" />
+        <div class="intro__text-container l-block-margin">
+          <h1 class="intro__h1">Do it All.</h1>
+          <h1 class="intro__h2">All from your wrist.</h1>
+        </div>
       </section>
-      <section id="specs l-100">
-        <div class="specs__container">
-          <div class="l-50">
-            <h3>Three rings. One goal.</h3>
-            <p>
+      <section id="specs">
+        <div class="specs__container l-flex l-block-large-margin">
+          <div class="l-50 l-flex-wrap specs__text">
+            <h3 class="specs__h3">Three rings. One goal.</h3>
+            <p class="specs__paragraph">
               Stand, Move, and Exercise rings visualize the ways you move each
               day. See if you’re sitting too much. Measure calories burned. And
               track how many minutes of exercise you’ve done. You can even share
@@ -43,14 +47,14 @@
               coaching give you a nudge when you need it.
             </p>
           </div>
-          <div class="l-50">
+          <div class="l-50 l-flex l-justify-centered">
             <img src="./assets/img/three_rings__b0qod4gjkis2_large.jpg" />
           </div>
         </div>
-        <div class="specs__container specs__l-reverse">
-          <div class="l-50">
-            <h3>Take your workouts further.</h3>
-            <p>
+        <div class="specs__container l-flex l-reverse l-block-large-margin">
+          <div class="l-50 l-flex-wrap specs__text">
+            <h3 class="specs__h3">Take your workouts further.</h3>
+            <p class="specs__paragraph">
               Track popular workouts like yoga, cycling, swimming, and
               high-intensity interval training.1 Track your runs with advanced
               features for runners like cadence and pace alerts. Pair wirelessly
@@ -58,25 +62,28 @@
               from Apple Music to stay motivated.3
             </p>
           </div>
-          <div class="l-50">
+          <div class="l-50 l-flex l-justify-centered">
             <img
               src="./assets/img/take_your_workouts_further__fmly3a75nwi2_large.jpg"
             />
           </div>
         </div>
       </section>
-      <section id="video-container">
+      <section
+        id="video-container"
+        class="l-flex l-justify-centered l-block-margin"
+      >
         <iframe
           id="video"
-          width="560"
-          height="315"
+          width="80%"
+          height="600"
           src="https://www.youtube.com/embed/vk4xkl1epco"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
       </section>
-      <section id="buy">
+      <section id="buy" class="l-flex l-justify-centered l-block-margin">
         <form
           id="form"
           action="https://www.freecodecamp.org/email-submit"

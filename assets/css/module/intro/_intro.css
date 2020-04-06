@@ -1,0 +1,10 @@
+.intro__text-container {
+  text-align: center;
+  width: 100%;
+}
+
+.intro__text-container .intro__h1,
+.intro__text-container .intro__h2 {
+  font-weight: 900;
+  font-size: 4rem;
+}
