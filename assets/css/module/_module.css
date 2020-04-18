@@ -1,5 +1,7 @@
+@import "./action-button/_action-button.css";
 @import "./navbar/_navbar.css";
 @import "./header/_header.css";
 @import "./main/_main.css";
 @import "./intro/_intro.css";
-@import "./specs/specs.css";
+@import "./specs/_specs.css";
+@import "./buy-form/_buy-form.css";

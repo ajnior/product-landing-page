@@ -19,7 +19,7 @@
         <div class="nav-bar__links l-50 l-flex l-justify-end l-align-centered">
           <a class="nav-link" href="#specs">Specs</a>
           <a class="nav-link" href="#video-container">Video</a>
-          <a class="nav-link nav-bar__buy-button" href="#buy">Buy</a>
+          <a class="nav-link action-button" href="#buy">Buy</a>
         </div>
       </nav>
     </header>
@@ -83,7 +83,8 @@
           allowfullscreen
         ></iframe>
       </section>
-      <section id="buy" class="l-flex l-justify-centered l-block-margin">
+      <section id="buy" class="l-flex-wrap l-justify-centered l-block-margin">
+        <h3>Be notified on the launch date</h3>
         <form
           id="form"
           action="https://www.freecodecamp.org/email-submit"
@@ -95,7 +96,13 @@
             name="email"
             placeholder="Your email"
           />
-          <input id="submit" type="submit" name="submit" />
+          <input
+            id="submit"
+            class="action-button"
+            type="submit"
+            name="submit"
+            value="Please, notify me"
+          />
         </form>
       </section>
     </main>
