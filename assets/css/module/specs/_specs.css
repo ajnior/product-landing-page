@@ -16,3 +16,14 @@
   line-height: 1.6rem;
   margin-top: 1rem;
 }
+
+@media (max-width: 768px) {
+  .specs__text {
+    padding: 1.5rem;
+  }
+  .specs__container h3,
+  .specs__paragraph {
+    width: 100%;
+    text-align: center;
+  }
+}
